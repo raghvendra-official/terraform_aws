@@ -61,7 +61,3 @@ To remove created AWS resources:
 terraform destroy
 ```
 
-
-git remote add origin https://github.com/raghvendra-official/terraform_aws.git
-git push -u origin main
-```
