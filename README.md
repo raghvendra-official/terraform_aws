@@ -61,22 +61,7 @@ To remove created AWS resources:
 terraform destroy
 ```
 
-## Important Notes
 
-- Do not commit `.env`, `*.tfvars`, Terraform state files, or plan files to GitHub.
-- Terraform state can contain sensitive values. Store it securely using a remote backend for real projects.
-- Review the generated plan before applying any changes.
-- AWS resources may create charges. Destroy resources when they are no longer needed.
-
-## Suggested GitHub Setup
-
-If this folder is not already a Git repository, initialize it before pushing:
-
-```bash
-git init
-git add .
-git commit -m "Add Terraform AWS examples"
-git branch -M main
 git remote add origin https://github.com/raghvendra-official/terraform_aws.git
 git push -u origin main
 ```
